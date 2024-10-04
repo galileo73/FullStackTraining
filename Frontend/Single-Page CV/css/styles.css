@@ -1,0 +1,139 @@
+/* Define global color variables */
+:root {
+    --primary-color: #7d7d7d; /* Light gray for headings, links, etc. */
+    --primary-hover: #5f5f5f; /* Darker gray for hover effects */
+    --text-color: #333; /* Darker text color for readability */
+    --background-color: #f4f4f4; /* Soft light gray background */
+    --white-color: #fff; /* White for section backgrounds */
+    --shadow-color: rgba(0, 0, 0, 0.1); /* Light shadow color */
+    --footer-bg-color: #7d7d7d; /* Matching footer background */
+    --footer-text-color: #fff; /* White text for footer */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header, section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    color: var(--primary-color); /* Light gray for headings */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+header a {
+    color: var(--primary-color); /* Light gray links */
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: var(--primary-hover); /* Darker gray on hover */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--primary-color); /* Light gray border */
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: var(--primary-color); /* Light gray pill background */
+    color: var(--white-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+ul li:hover {
+    background-color: var(--primary-hover); /* Darker gray on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--footer-bg-color); /* Light gray footer */
+    color: var(--footer-text-color); /* White text in footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    article h3 {
+        font-size: 1.2rem;
+    }
+}
