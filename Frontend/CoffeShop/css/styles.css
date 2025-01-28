@@ -1,48 +1,7 @@
-/* Hero Section */
-.hero {
-    height: 100vh;
-    background: url('/Frontend/CoffeShop/images/caffetteria.jpg') no-repeat center center/cover;
-}
+@import 'https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 
-.hero h1 {
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-.hero .btn {
-    font-weight: bold;
-    padding: 15px 30px;
-}
-
-/* About Section */
-#about {
-    background: #fff;
-    color: #6b3e26;
-}
-
-#about p {
-    font-size: 1.1rem;
-}
-
-/* Menu Section */
-#menu .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-#menu .card:hover {
-    transform: translateY(-10px);
-}
-
-/* Footer */
-footer {
-    background: #6b3e26;
-    color: #fff;
-}
-
-footer a {
-    color: #ffdab9;
-}
-
-footer a:hover {
-    text-decoration: underline;
+/* Custom styles */
+.hidden {
+    display: none !important;
 }
