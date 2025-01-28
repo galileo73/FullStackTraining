@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-
 <body>
     <div class="min-h-screen bg-white">
         <!-- Navigation -->
@@ -25,6 +23,7 @@
 
                         <!-- Desktop Navigation -->
                         <div class="md:ml-12 md:flex md:space-x-8">
+                            <a href="#" class="text-gray-700 hover:text-red-700 px-3 py-2 font-medium">News</a>
                             <a href="#" class="text-gray-700 hover:text-red-700 px-3 py-2 font-medium">Menu</a>
                             <a href="#" class="text-gray-700 hover:text-red-700 px-3 py-2 font-medium">Rewards</a>
                             <a href="#" class="text-gray-700 hover:text-red-700 px-3 py-2 font-medium">Gift Cards</a>
@@ -78,13 +77,12 @@
                 <div class="mt-10">
                     <a href="#"
                         class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800">
-                        Order Now
+                        Find out more
                         <i data-lucide="chevron-right" class="ml-2 h-5 w-5"></i>
                     </a>
                 </div>
             </div>
         </div>
-
         <!-- Features Section -->
         <div class="py-16 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -96,7 +94,7 @@
                     </div>
                     <div class="text-center">
                         <i data-lucide="gift" class="mx-auto h-12 w-12 text-red-700"></i>
-                        <h3 class="mt-4 text-xl font-semibold text-gray-900">Costa Club</h3>
+                        <h3 class="mt-4 text-xl font-semibold text-gray-900">Corner Club</h3>
                         <p class="mt-2 text-gray-600">Join our rewards program for exclusive benefits.</p>
                     </div>
                     <div class="text-center">
@@ -107,7 +105,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Featured Products -->
         <div class="bg-gray-50 py-16">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -115,61 +112,10 @@
                 <div class="grid grid-cols-1 gap-8 md:grid-cols-3" id="featuredProducts"></div>
             </div>
         </div>
-
-        <!-- Footer -->
-        <footer class="bg-gray-900">
-            <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                    <div>
-                        <h3 class="text-white text-lg font-semibold mb-4">About Us</h3>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white">Our Story</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-white text-lg font-semibold mb-4">Customer Service</h3>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">FAQs</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">Store Locator</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-white text-lg font-semibold mb-4">Legal</h3>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
-                            <li><a href="#" class="text-gray-400 hover:text-white">Cookie Policy</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-white text-lg font-semibold mb-4">Connect With Us</h3>
-                        <div class="flex space-x-4">
-                            <a href="#" class="text-gray-400 hover:text-white">
-                                <i data-lucide="facebook" class="h-6 w-6"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-white">
-                                <i data-lucide="instagram" class="h-6 w-6"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-white">
-                                <i data-lucide="twitter" class="h-6 w-6"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-white">
-                                <i data-lucide="youtube" class="h-6 w-6"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-8 border-t border-gray-700 pt-8">
-                    <p class="text-gray-400 text-sm text-center">
-                        © <span id="currentYear"></span> Costa Coffee. All rights reserved.
-                    </p>
-                </div>
-            </div>
-        </footer>
+        <!-- Footer Placeholder -->
+        <div id="footer-placeholder"></div>
     </div>
+    <script src="js/footer.js"></script>
     <script src="js/script.js"></script>
 </body>
 
